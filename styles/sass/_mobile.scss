@@ -1,0 +1,28 @@
+
+@media(max-width: 480px){
+    header h1{
+        align-self: center;
+        color: white;
+        font-size:4.35rem;
+        font-family: 'Mr Dafoe', cursive;
+    }
+    .imageOne, 
+    .imageThree{
+        display: none;
+    }
+    header .imgContainer div{
+        width: 100%;
+        margin-right: 0;
+    }
+    ul li{
+        flex-direction: column;
+    }
+    li img{
+        align-self: center;
+        margin: 50px 0 50px 0;
+    }
+    ul div, 
+    ul p{
+        margin: 0 20px 0 20px;
+    }
+}
